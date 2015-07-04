@@ -2598,6 +2598,94 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		
+		RobotoBlack12
+		{
+			"1"
+			{
+				"name" "Roboto Black"
+				"tall" "12"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		RobotoBlack16
+		{
+			"1"
+			{
+				"name" "Roboto Black"
+				"tall" "16"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		RobotoBlack24
+		{
+			"1"
+			{
+				"name" "Roboto Black"
+				"tall" "24"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		RobotoBlack32
+		{
+			"1"
+			{
+				"name" "Roboto Black"
+				"tall" "32"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		RobotoBlack48
+		{
+			"1"
+			{
+				"name" "Roboto Black"
+				"tall" "48"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		RobotoBlack56
+		{
+			"1"
+			{
+				"name" "Roboto Black"
+				"tall" "56"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		RobotoMedium16
+		{
+			"1"
+			{
+				"name" "Roboto Medium"
+				"tall" "16"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		RobotoMedium32
+		{
+			"1"
+			{
+				"name" "Roboto Medium"
+				"tall" "32"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 
 	}
 
