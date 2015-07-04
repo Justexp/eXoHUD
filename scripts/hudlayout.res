@@ -16,14 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r95"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r55"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"94"
-		"tall"	"45"
+		"xpos"	"c-300"	[$WIN32]
+		"ypos"	"c190"	[$WIN32]
+		"wide"	"600"
+		"tall"	"50"
 	}
 	
 	HudObjectiveStatus
@@ -243,10 +239,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
+		"xpos"		"0"	[$WIN32]
 		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
 		"wide"		"500"
 		"tall"		"200"
 		"TextFont"	"Default"	[$X360]
