@@ -16,9 +16,9 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-300"	[$WIN32]
-		"ypos"	"c190"	[$WIN32]
-		"wide"	"600"
+		"xpos"	"c-250"	[$WIN32]
+		"ypos"	"c90"	[$WIN32]
+		"wide"	"500"
 		"tall"	"50"
 	}
 	
@@ -87,16 +87,14 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"c-100"	[$WIN32]
+		"xpos_minmode"	"c-100"	[$WIN32]
+		"ypos"			"c150"	[$WIN32]
+		"ypos_minmode"	"c150"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"wide"			"200"
+		"wide_minmode"	"200"
+		"tall"			"10"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -207,15 +205,15 @@
 		"PaintBackgroundType"	"2"
 	}
 	
-	CHealthAccountPanel
+	CHealthAccountPanel      //  Healt Pickup
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"c-210"
+		"xpos_minmode"			"c-210"
+		"ypos"					"c0"
+		"ypos_minmode"			"c0"
+		"wide"					"120"
+		"tall"  				"100"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -1028,14 +1026,12 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"c-100"	[$WIN32]
+		"xpos_minmode"	"c-100"	[$WIN32]
+		"ypos"			"c130"	[$WIN32]
+		"ypos_minmode"	"c120"	[$WIN32]
+		"wide"			"200"
+		"tall"			"20"
 	}	
 
 	HudTeamGoal

@@ -2686,6 +2686,39 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		
+		RobotoLight10
+		{
+			"1"
+			{
+				"name" "Roboto Light"
+				"tall" "10"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		RobotoLight8
+		{
+			"1"
+			{
+				"name" "Roboto Light"
+				"tall" "8"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		RobotoLight6
+		{
+			"1"
+			{
+				"name" "Roboto Light"
+				"tall" "6"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 
 	}
 

@@ -5,11 +5,11 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"c190"	[$WIN32]
-		"wide"			"600"
-		"tall"			"50"
-		"MeterFG"		"White"
+		"xpos"			"c-100"	[$WIN32]
+		"ypos"			"c140"	[$WIN32]
+		"wide"			"200"
+		"tall"			"20"
+		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
 	
@@ -37,11 +37,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"130"
-		"ypos"					"25"
+		"xpos"					"150"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"15"
+		"wide"					"50"
+		"tall"					"10"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -52,7 +52,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"RobotoLight10"
 	}
 
 	"ItemEffectMeter"
@@ -60,16 +60,16 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"130"
-		"ypos"					"20"
+		"xpos"					"150"
+		"ypos"					"10"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"5"				
+		"wide"					"50"
+		"tall"					"10"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					
