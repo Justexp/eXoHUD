@@ -18,5 +18,9 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+		"bgcolor_override" "Gray"
+		"fgcolor_override"	"White"
 	}					
 }
