@@ -2665,12 +2665,34 @@ Scheme
 			}
 		}
 		
+		RobotoMedium12
+		{
+			"1"
+			{
+				"name" "Roboto Medium"
+				"tall" "12"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
 		RobotoMedium16
 		{
 			"1"
 			{
 				"name" "Roboto Medium"
 				"tall" "16"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		RobotoMedium24
+		{
+			"1"
+			{
+				"name" "Roboto Medium"
+				"tall" "24"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -2715,6 +2737,39 @@ Scheme
 			{
 				"name" "Roboto Light"
 				"tall" "6"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		RobotoLight12
+		{
+			"1"
+			{
+				"name" "Roboto Light"
+				"tall" "12"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		RobotoLight16
+		{
+			"1"
+			{
+				"name" "Roboto Light"
+				"tall" "16"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		RobotoLight24
+		{
+			"1"
+			{
+				"name" "Roboto Light"
+				"tall" "24"
 				"antialias" "1"
 				"additive"	"0"
 			}

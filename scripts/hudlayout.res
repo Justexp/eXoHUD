@@ -193,13 +193,11 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"c-50"	[$WIN32]
+		"ypos"					"c0"	[$WIN32]
+		"ypos_minmode"			"c0"	[$WIN32]
+		"wide"					"100"
+		"tall"  				"150"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -249,11 +247,11 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"285"
-		"wide"	 	"252"
+		"xpos"		"c-125"
+		"ypos"		"c60"
+		"wide"	 	"250"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_minmode"	 	"35"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -277,8 +275,8 @@
 		"priority"	"40"
 		"priority_lodef" "35"
 		
-		"x_offset" "20"
-		"y_offset" "20"
+		"x_offset" "0"
+		"y_offset" "0"
 	}
 	
 	CSecondaryTargetID
@@ -286,11 +284,14 @@
 		"fieldName" 	"CSecondaryTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"335"
-		"wide"	 	"252"
+		"xpos"		"c-125"
+		"xpos_minmode"		"c-125"
+		"ypos"		"c100"
+		"ypos_minmode"		"c100"
+		"wide"	 	"200"
+		"wide_minmode"		"200"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_minmode"	 	"35"
 		"priority"	"35"
 
 		if_vr

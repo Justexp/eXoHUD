@@ -258,6 +258,8 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 	Animate AmmoInClip					fgcolor		"200 20 20 255"		Linear 0.0 0.25
 	Animate AmmoInClip					fgcolor		"TanLight"		Linear 0.25 0.50
+	Animate AmmoNoClip					fgcolor		"200 20 20 255"		Linear 0.0 0.25
+	Animate AmmoNoClip					fgcolor		"TanLight"		Linear 0.25 0.50
 	
 	RunEvent HudLowAmmoPulseLoop	0.50
 }
@@ -273,6 +275,7 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 	Animate AmmoInClip					fgcolor		"TanLight"		Linear 0.0 0.0
+	Animate AmmoNoClip					fgcolor		"TanLight"		Linear 0.25 0.50
 }
 
 //===========================================

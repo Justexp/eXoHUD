@@ -74,7 +74,25 @@
 		"textAlignment"	"center"	
 		"font"			"RobotoBlack48"
 		"fgcolor"		"TanLight"
-	}								
+	}
+
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"1"
+		"ypos"			"16"
+		"zpos"			"5"
+		"wide"			"120"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"RobotoBlack48"
+		"fgcolor"		"Black"
+	}
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
