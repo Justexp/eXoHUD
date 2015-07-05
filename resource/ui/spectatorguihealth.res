@@ -88,7 +88,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"RobotoMedium16"
+		"font"			"RobotoMedium24"
 		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusPlayerLevel"

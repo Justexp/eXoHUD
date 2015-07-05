@@ -59,12 +59,12 @@
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
 		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"White"
+		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
+		"MeterFG_override"		"TanLight"
+		"fgcolor_override"		"TanLight"
 	}
 	
 	HudMedicCharge
@@ -72,14 +72,12 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"c-250"	[$WIN32]
+		"xpos_minmode"	"c-250"	[$WIN32]
+		"ypos"			"c90"	[$WIN32]
+		"ypos_minmode"	"c90"	[$WIN32]
+		"wide"			"500"
+		"tall"			"50"
 	}
 	
 	HudDemomanCharge
@@ -89,8 +87,8 @@
 		"enabled"		"1"
 		"xpos"			"c-100"	[$WIN32]
 		"xpos_minmode"	"c-100"	[$WIN32]
-		"ypos"			"c150"	[$WIN32]
-		"ypos_minmode"	"c150"	[$WIN32]
+		"ypos"			"c130"	[$WIN32]
+		"ypos_minmode"	"c130"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"200"
 		"wide_minmode"	"200"
@@ -104,18 +102,17 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"c-100"	[$WIN32]
+		"xpos_minmode"	"c-100"	[$WIN32]
+		"ypos"			"c130"	[$WIN32]
+		"ypos_minmode"	"c130"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"wide"			"200"
+		"wide_minmode"	"200"
+		"tall"			"10"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
+		"fgcolor_override"	"White"
 	}
 
 	HudFlameRocketCharge
@@ -235,11 +232,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
+		"xpos"		"c-250"	[$WIN32]
+		"ypos"		"c90"	[$WIN32]
 		"wide"		"500"
-		"tall"		"200"
-		"TextFont"	"Default"	[$X360]
+		"tall"		"50"
 	}
 
 	CMainTargetID
@@ -1029,8 +1025,8 @@
 		"enabled"		"1"
 		"xpos"			"c-100"	[$WIN32]
 		"xpos_minmode"	"c-100"	[$WIN32]
-		"ypos"			"c130"	[$WIN32]
-		"ypos_minmode"	"c120"	[$WIN32]
+		"ypos"			"c140"	[$WIN32]
+		"ypos_minmode"	"c140"	[$WIN32]
 		"wide"			"200"
 		"tall"			"20"
 	}	

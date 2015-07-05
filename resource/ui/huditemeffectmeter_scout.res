@@ -13,8 +13,9 @@
 		"x_offset_minmode"		"0"	[$WIN32]
 		"wide"			"200"
 		"tall"			"20"
-		"MeterFG"		"White"
+		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
+		"fgcolor_override"		"TanLight"
 	}
 	
 	"ItemEffectMeterBG"
@@ -41,7 +42,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"75"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"50"
@@ -51,7 +52,7 @@
 		"visible"				"1"
 		"visible_minmode"		"1"
 		"ypos_minmode"			"0"
-		"xpos_minmode"			"75"
+		"xpos_minmode"			"0"
 		"textAlignment_minmode"			"center"
 		"enabled"				"1"
 		"tabPosition"			"0"
@@ -67,10 +68,10 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"75"
+		"xpos"					"0"
 		"ypos"					"10"
 		"ypos_minmode"			"10"
-		"xpos_minmode"			"75"
+		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"50"
 		"wide_minmode"			"50"
@@ -82,5 +83,6 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"fgcolor_override"		"TanLight"
 	}					
 }
