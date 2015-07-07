@@ -8,7 +8,7 @@
 		"xpos"			"0"
 		"xpos_minmode"	"0"
 		"ypos"			"0"
-		"zpos"			"2"
+		"zpos"			"-1"
 		"wide"			"200"
 		"tall"			"10"				
 		"autoResize"	"0"
@@ -20,7 +20,5 @@
 		"brighttext"	"0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
-		"bgcolor_override" "Gray"
-		"fgcolor_override"	"White"
 	}					
 }
