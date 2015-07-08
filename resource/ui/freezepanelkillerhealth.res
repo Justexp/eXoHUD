@@ -71,7 +71,7 @@
 		"textAlignment"	"center"	
 		"font"			"RobotoBlack24"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"fgcolor"		"255 0 255 255"
+		"fgcolor"		"0 255 255 255"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
